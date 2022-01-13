@@ -1,0 +1,340 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.account {
+  position: absolute;
+  width: 121px;
+  height: 23px;
+  left: 900px;
+  top: 0px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  
+  color: #000000;
+  
+}
+
+.imgac {
+  position: absolute;
+  width: 18px;
+  height: 19.32px;
+  left: 863px;
+  top: 0px;
+
+}
+
+.navMenu {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  font-family: 'Raleway';
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  top: 32px;
+}
+
+.navMenu a {
+  
+  margin-left: 50px;
+  color: #000000;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: 500;
+  width: 80px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover {
+  color: #fddb3a;
+}
+
+.navMenu .dot {
+  
+  width: 6px;
+  height: 6px;
+  background: #fddb3a;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:nth-child(1):hover ~ .dot {
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+  margin-left: 60px;
+}
+
+.navMenu a:nth-child(2):hover ~ .dot {
+  -webkit-transform: translateX(110px);
+  transform: translateX(110px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+  margin-left: 135px;
+}
+
+.navMenu a:nth-child(3):hover ~ .dot {
+  -webkit-transform: translateX(200px);
+  transform: translateX(200px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+  margin-left: 200px;
+}
+
+.navMenu a:nth-child(4):hover ~ .dot {
+  -webkit-transform: translateX(285px);
+  transform: translateX(285px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+  margin-left: 310px;
+}
+
+.container-fluid h2{
+    position: absolute;
+width: 983px;
+height: 84px;
+left: 100px;
+top: 113px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 42px;
+
+color: #A585FF;
+
+}
+
+.frontimg {
+    background: url(../img/d1.svg);
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 331px;
+    height: 331px;
+    left: 100px;
+    top: 347px;
+    
+}
+.androidimg {
+    background: url(../img/dd2.svg);
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 331px;
+    height: 331px;
+    left: 100px;
+    top: 888px;
+    
+}
+.mobraz {
+    position: absolute;
+    width: 335px;
+    height: 35px;
+    left: 100px;
+    top: 778px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #000000;
+}
+.frontraz {
+    position: absolute;
+    width: 322px;
+    height: 35px;
+    left: 100px;
+    top: 237px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+
+color: #000000;
+
+}
+.mobspec {
+    position: absolute;
+    width: 290px;
+    height: 114px;
+    left: 666px;
+    top: 984px;
+    font-size: 24px;
+}
+
+.frontspec{
+    position: absolute;
+    width: 290px;
+    height: 287px;
+    left: 666px;
+    top: 366px;
+    font-size: 24px;
+
+}
+.poimg {
+    background: url(../img/d3.svg);
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 331px;
+    height: 331px;
+    left: 100px;
+    top: 1431px;    
+
+
+}
+.backraz{
+    position: absolute;
+    width: 319px;
+    height: 35px;
+    left: 100px;
+    top: 1319px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    
+    color: #000000;
+    
+}
+.backspec {
+    position: absolute;
+    width: 290px;
+    height: 114px;
+    left: 666px;
+    top: 1510px;
+    font-size: 24px;
+}
+
+
+.searchbut {
+    background: url(../img/searchimg.svg);
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 301px;
+    height: 72px;
+    left: 100px;
+    top: 1842px;
+    padding-top: 154px;
+}
+
+li {
+    list-style-type: none;
+   }
+
+.js::before {
+    color: #4753C0;
+    content: "●";
+    padding-right: 10px;
+}
+
+.html::before {
+    color: #EB4824;
+    content: "●";
+    padding-right: 10px;
+}
+
+.css::before {
+    color: #14AD48;
+    content: "●";
+    padding-right: 10px;
+}
+
+.react::before {
+    color: #E03434;
+    content: "●";
+    padding-right: 10px;
+}
+
+.node::before {
+    color: #51DCDC;
+    content: "●";
+    padding-right: 10px;
+}
+
+.verst::before {
+    color: #D761DA;
+    content: "●";
+    padding-right: 10px;
+}
+
+.web::before {
+    color: #F6CA2B;
+    content: "●";
+    padding-right: 10px;
+}
+
+.andr::before {
+    color: #4753C0;
+    content: "●";
+    padding-right: 10px;
+}
+
+.ios::before {
+    color: #EB4824;
+    content: "●";
+    padding-right: 10px;
+}
+
+.flu::before {
+    color: #14AD48;
+    content: "●";
+    padding-right: 10px;
+}
+
+.php::before {
+    color: #4753C0;
+    content: "●";
+    padding-right: 10px;
+}
+
+.jv::before {
+    color: #EB4824;
+    content: "●";
+    padding-right: 10px;
+}
+
+.sql::before {
+    color: #14AD48;
+    content: "●";
+    padding-right: 10px;
+}
+   
+
+  
+ 

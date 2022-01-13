@@ -1,0 +1,1054 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html{
+    height: 1533px;
+    width: 0;
+}
+
+.account {
+  position: absolute;
+  width: 121px;
+  height: 23px;
+  left: 900px;
+  top: 0px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  
+  color: #000000;
+  
+}
+
+.imgac {
+  position: absolute;
+  width: 18px;
+  height: 19.32px;
+  left: 863px;
+  top: 0px;
+
+}
+
+.navMenu {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  font-family: 'Raleway';
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  top: 32px;
+}
+
+.navMenu a {
+  
+  margin-left: 50px;
+  color: #000000;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: 500;
+  width: 80px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover {
+  color: #fddb3a;
+}
+
+.navMenu .dot {
+  
+  width: 6px;
+  height: 6px;
+  background: #fddb3a;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:nth-child(1):hover ~ .dot {
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+  margin-left: 60px;
+}
+
+.navMenu a:nth-child(2):hover ~ .dot {
+  -webkit-transform: translateX(110px);
+  transform: translateX(110px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+  margin-left: 135px;
+}
+
+.navMenu a:nth-child(3):hover ~ .dot {
+  -webkit-transform: translateX(200px);
+  transform: translateX(200px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+  margin-left: 200px;
+}
+
+.navMenu a:nth-child(4):hover ~ .dot {
+  -webkit-transform: translateX(285px);
+  transform: translateX(285px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+  margin-left: 310px;
+}
+.REC1img {
+    background: url(../img/REC1.svg);
+    position: absolute;
+    width: 400px;
+    height: 190px;
+    left: 90px;
+    top: 108px;
+}
+.rec2img {
+    background: url(../img/rec2.svg);
+    position: absolute;
+    width: 400px;
+    height: 190px;
+    left: 540px;
+    top: 108px;
+}
+.rec3img {
+    background: url(../img/rec3.svg);
+    position: absolute;
+    width: 400px;
+    height: 190px;
+    left: 90px;
+    top: 328px;
+}
+.rec4img {
+    background: url(../img/rec4.svg);
+    position: absolute;
+    width: 400px;
+    height: 190px;
+    left: 540px;
+    top: 328px;
+}
+.rec5img {
+    background: url(../img/rec5.svg); 
+    position: absolute;
+    width: 400px;
+    height: 190px;
+    left: 90px;
+    top: 548px;
+}
+.rec6img {
+    background: url(../img/rec6.svg); 
+    position: absolute;
+    width: 400px;
+    height: 190px;
+    left: 540px;
+    top: 548px;
+}
+.rec7img {
+    background: url(../img/rec7.svg);
+    position: absolute;
+    width: 400px;
+    height: 190px;
+    left: 90px;
+    top: 768px;
+}
+.rec8img {
+    background: url(../img/rec8.svg);
+    position: absolute;
+    width: 400px;
+    height: 190px;
+    left: 540px;
+    top: 768px;
+}
+.rec9img {
+    background: url(../img/rec9.svg);   
+    position: absolute;
+    width: 400px;
+    height: 190px;
+    left: 90px;
+    top: 988px;
+}
+.rec10img {
+    background: url(../img/rec10.svg); 
+    position: absolute;
+    width: 400px;
+    height: 190px;
+    left: 540px;
+    top: 988px;
+}
+.container-fluid p1 {
+    /* Резюме */
+position: absolute;
+width: 91px;
+height: 28px;
+left: 995px;
+top: 110px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+}
+.container-fluid p2 {
+    /* 2,589,140 */
+position: absolute;
+width: 155px;
+height: 42px;
+left: 995px;
+top: 146px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+
+color: #000000;
+}
+.hr /{
+    /* Line 1 */
+position: absolute;
+width: 344px;
+height: 0px;
+left: 997px;
+top: 194px;
+
+border: 1px solid #000000;
+}
+.container-fluid p3 {
+    /* Специализация */
+position: absolute;
+width: 208px;
+height: 30px;
+left: 995px;
+top: 212px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+}
+.container-fluid p4 {
+    /* All selected */
+position: absolute;
+width: 99px;
+height: 21px;
+left: 995px;
+top: 252px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+}
+.container-fluid p5 {
+    /* Backend разработчик */
+position: absolute;
+width: 188px;
+height: 21px;
+left: 995px;
+top: 288px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+}
+.container-fluid p6 {
+    /* 15k */
+position: absolute;
+width: 22px;
+height: 16px;
+left: 1319px;
+top: 292px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+}
+.container-fluid p7 {
+    /* Frontend разработчик */
+position: absolute;
+width: 190px;
+height: 20px;
+left: 995px;
+top: 334px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+}
+.container-fluid p8 {
+    /* 13k */
+position: absolute;
+width: 21px;
+height: 16px;
+left: 1319px;
+top: 338px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+}
+.container-fluid p9 {
+    /* Веб-тестировщик */
+position: absolute;
+width: 200px;
+height: 21px;
+left: 995px;
+top: 379px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+}
+.container-fluid p10 {
+/* 9k */
+position: absolute;
+width: 16px;
+height: 16px;
+left: 1319px;
+top: 380px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+}
+.container-fluid p11 {
+    /* Разработчик ПО */
+position: absolute;
+width: 141px;
+height: 21px;
+left: 995px;
+top: 425px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+}
+.container-fluid p12 {
+    /* 7k */
+position: absolute;
+width: 15px;
+height: 16px;
+left: 1319px;
+top: 429px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+}
+.container-fluid p13 {
+    /* Системный администратор */
+position: absolute;
+width: 300spx;
+height: 21px;
+left: 995px;
+top: 471px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+}
+.container-fluid p14 {
+    /* 7k */
+position: absolute;
+width: 15px;
+height: 16px;
+left: 1319px;
+top: 472px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+}
+.container-fluid p15 {
+    /* UX/UI продуктовый дизайнер */
+position: absolute;
+width: 259px;
+height: 21px;
+left: 995px;
+top: 517px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+}
+.container-fluid p16  {
+    /* 6k */
+position: absolute;
+width: 16px;
+height: 16px;
+left: 1319px;
+top: 518px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+}
+.container-fluid p17 {
+    /* Другие */
+position: absolute;
+width: 63px;
+height: 21px;
+left: 995px;
+top: 563px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+}
+.container-fluid p18 {
+    /* 20k */
+position: absolute;
+width: 24px;
+height: 16px;
+left: 1319px;
+top: 564px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+}
+.container-fluid p19 {
+    /* Тип занятости */
+position: absolute;
+width: 189px;
+height: 28px;
+left: 995px;
+top: 614px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+}
+.container-fluid p20 {
+    /* All selected */
+position: absolute;
+width: 99px;
+height: 21px;
+left: 995px;
+top: 652px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+}
+.container-fluid p21 {
+    /* Полная занятость */
+position: absolute;
+width: 153px;
+height: 21px;
+left: 995px;
+top: 688px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+}
+.container-fluid p22 {
+    /* 15k */
+position: absolute;
+width: 22px;
+height: 16px;
+left: 1319px;
+top: 692px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+}
+.container-fluid p23 {
+   /* Частичная занятость */
+position: absolute;
+width: 190px;
+height: 20px;
+left: 995px;
+top: 734px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+}
+.container-fluid p24 {
+    /* 13k */
+position: absolute;
+width: 21px;
+height: 16px;
+left: 1319px;
+top: 738px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+}
+.container-fluid p25 {
+    /* Проектная работа */
+position: absolute;
+width: 159px;
+height: 21px;
+left: 995px;
+top: 779px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+}
+.container-fluid p26 {
+    /* 9k */
+position: absolute;
+width: 16px;
+height: 16px;
+left: 1319px;
+top: 780px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+}
+.container-fluid p27 {
+    /* Волонтерство */
+position: absolute;
+width: 124px;
+height: 21px;
+left: 995px;
+top: 825px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+}
+.container-fluid p28 {
+    /* 7k */
+position: absolute;
+width: 15px;
+height: 16px;
+left: 1319px;
+top: 829px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+}
+.container-fluid p29 {
+    /* Стажировка */
+position: absolute;
+width: 107px;
+height: 21px;
+left: 995px;
+top: 871px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+}
+.container-fluid p30 {
+    /* 7k */
+position: absolute;
+width: 15px;
+height: 16px;
+left: 1319px;
+top: 872px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+}
+.container-fluid p31 {
+    /* Другие */
+position: absolute;
+width: 63px;
+height: 21px;
+left: 995px;
+top: 917px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+}
+.container-fluid p32 {
+    /* 20k */
+position: absolute;
+width: 24px;
+height: 16px;
+left: 1319px;
+top: 918px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+}
+.container-fluid p33 {
+    /* График работы */
+position: absolute;
+width: 204px;
+height: 28px;
+left: 995px;
+top: 968px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+}
+.container-fluid p34 {
+    /* All selected */
+position: absolute;
+width: 99px;
+height: 21px;
+left: 995px;
+top: 1006px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+}
+.container-fluid p35 {
+    /* Полный день */
+position: absolute;
+width: 113px;
+height: 21px;
+left: 995px;
+top: 1042px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+}
+.container-fluid p36 {
+    /* 15k */
+position: absolute;
+width: 22px;
+height: 16px;
+left: 1319px;
+top: 1046px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+}
+.container-fluid p37 {
+    /* Удаленная работа */
+position: absolute;
+width: 190px;
+height: 20px;
+left: 995px;
+top: 1088px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+}
+.container-fluid p38 {
+    /* 13k */
+position: absolute;
+width: 21px;
+height: 16px;
+left: 1319px;
+top: 1092px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+}
+.container-fluid p39 {
+    /* Сменный график */
+position: absolute;
+width: 145px;
+height: 21px;
+left: 995px;
+top: 1133px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+}
+.container-fluid p40 {
+    /* 9k */
+position: absolute;
+width: 16px;
+height: 16px;
+left: 1319px;
+top: 1134px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+}
+.container-fluid p41 {
+    /* Гибкий график */
+position: absolute;
+width: 128px;
+height: 21px;
+left: 995px;
+top: 1179px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+}
+.container-fluid p42 {
+    /* 7k */
+position: absolute;
+width: 15px;
+height: 16px;
+left: 1319px;
+top: 1183px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+}
+.shimg {
+    background: url(../img/sh.svg);   
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 995px;
+    top: 1235px;
+}
+.container-fluid p43 {
+    /* Больше параметров для поиска */
+position: absolute;
+width: 275px;
+height: 21px;
+left: 1025px;
+top: 1235px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #032AF9;
+}
+
+.rezumechsv{
+    position: absolute;
+    width: 344px;
+    height: 0px;
+    left: 997px;
+    top: 194px;
+
+    border: 1px solid #000000;
+}
+
+.backsv {
+    position: absolute;
+    width: 343px;
+    height: 10px;
+    left: 996.5px;
+    top: 317.5px;
+}
+
+.frontsv{
+    position: absolute;
+    width: 346px;
+    height: 10px;
+    left: 995px;
+    top: 364px; 
+}
+.vebtestsv{
+    position: absolute;
+    width: 346px;
+    height: 5px;
+    left: 995px;
+    top: 410px;
+
+}
+
+.posv{
+    position: absolute;
+    width: 346px;
+    height: 5px;
+    left: 995px;
+    top: 456px;
+
+}
+
+.sisadmsv {
+    position: absolute;
+    width: 346px;
+    height: 5px;
+    left: 995px;
+    top: 502px;
+}
+
+.desinsv{
+    position: absolute;
+    width: 346px;
+    height: 5px;
+    left: 995px;
+    top: 548px;
+
+}
+
+.drugiesv {
+    position: absolute;
+    width: 346px;
+    height: 5px;
+    left: 995px;
+    top: 594px;
+
+}
+.drugiesv2 {
+    position: absolute;
+    width: 346px;
+    height: 5px;
+    left: 995px;
+    top: 948px;
+
+}
+
+.polzansv{
+    position: absolute;
+    width: 346px;
+    height: 5px;
+    left: 995px;
+    top: 719px;
+}
+
+.chaszansv {
+    position: absolute;
+    width: 346px;
+    height: 5px;
+    left: 995px;
+    top: 764px;
+    
+}
+
+.proektsv {
+    position: absolute;
+    width: 346px;
+    height: 5px;
+    left: 995px;
+    top: 810px;
+}
+
+.volontsv{
+    position: absolute;
+    width: 346px;
+    height: 5px;
+    left: 995px;
+    top: 856px;
+}
+
+.stajsv {
+    position: absolute;
+    width: 346px;
+    height: 5px;
+    left: 995px;
+    top: 902px;
+    
+}
+
+.polnsv{
+    position: absolute;
+    width: 346px;
+    height: 5px;
+    left: 995px;
+    top: 1073px;
+}
+
+.udalensv{
+    position: absolute;
+    width: 346px;
+    height: 5px;
+    left: 995px;
+    top: 1118px;
+}
+
+.smensv{
+    position: absolute;
+    width: 346px;
+    height: 5px;
+    left: 995px;
+    top: 1164px;
+}
+
+.gibkiysv{
+    position: absolute;
+    width: 346px;
+    height: 5px;
+    left: 995px;
+    top: 1210px;
+    
+}
